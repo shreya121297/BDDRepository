@@ -6,8 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src//test//java//feature//loginT.feature"},
-glue= {"stepDefinition"})
+@CucumberOptions(features= {"src//test//java//feature//loginT.feature"},glue= {"stepDefinition"})
 public class RunTest {
 	
 
